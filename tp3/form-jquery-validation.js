@@ -1,6 +1,6 @@
 $(document).ready(function () { //pour chargement de la page
    
-       $('#button').on("click", function (event) { //ajouter un "listener" à un élément
+       $('#submit').on("click", function (event) { //ajouter un "listener" à un élément
            event.preventDefault();
            console.log( "click" );
    
